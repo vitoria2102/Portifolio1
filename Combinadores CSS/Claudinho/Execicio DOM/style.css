@@ -1,0 +1,42 @@
+/* Estilos básicos*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blueviolet;
+}
+#mensagem{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color:black
+}
